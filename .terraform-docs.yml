@@ -1,0 +1,11 @@
+# .terraform-docs.yml
+content: |-
+  {{ include "docs/.header.md" }}
+
+  ## Example
+
+  ```hcl
+  {{ include "examples/main/main.tf" }}
+  ```
+
+  {{ .Requirements }}
